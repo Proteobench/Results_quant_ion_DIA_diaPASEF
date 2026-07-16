@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.2668637645905623,
   "nr_feature": 107961,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "M[Oxidation], N-term[Acetyl]",
@@ -251,12 +251,10 @@
   "max_fragment_mz": 2000,
   "quantification_method": "Legacy",
   "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "predictors_library": {
-    "RT": "DIANN",
-    "IM": "DIANN",
-    "MS2_int": "DIANN"
-  },
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "DIANN",
   "scan_window": 8,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "Resubmission of 086b2ad161ee988c6178d533528c15bee4566d4c after changing quant column from Precursor.Quantity -> Precursor.Normalised\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/2b63aca2b90df457cf7e2cedf78ca9a7bdb40a5a/"
 }
