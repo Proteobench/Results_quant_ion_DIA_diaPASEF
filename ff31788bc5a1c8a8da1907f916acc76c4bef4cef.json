@@ -8,8 +8,8 @@
   "ident_fdr_peptide": NaN,
   "ident_fdr_protein": 0.01,
   "enable_match_between_runs": true,
-  "precursor_mass_tolerance": "[-0 ppm, 0 ppm]",
-  "fragment_mass_tolerance": "[-0 ppm, 0 ppm]",
+  "precursor_mass_tolerance": "Automatic calibration",
+  "fragment_mass_tolerance": "Automatic calibration",
   "enzyme": "Trypsin/P",
   "allowed_miscleavages": 1,
   "min_peptide_length": 6,
@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.42391620168443356,
   "nr_feature": 92212,
   "comments": "",
-  "proteobench_version": "0.16.7",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "M[Oxidation], Protein N-term[Acetyl]",
@@ -254,5 +254,7 @@
   "abundance_normalization_ions": NaN,
   "predictors_library": "AlphaPeptDeep",
   "scan_window": NaN,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### Parameter changes detected:\n- **search_engine_version**: `None` \u2192 `nan`\n- **abundance_normalization_ions**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/ff31788bc5a1c8a8da1907f916acc76c4bef4cef/"
 }

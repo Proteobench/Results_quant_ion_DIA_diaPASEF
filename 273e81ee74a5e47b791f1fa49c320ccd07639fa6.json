@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.3657805811898516,
   "nr_feature": 129230,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "Protein N-term[Acetyl], M[Oxidation]",
@@ -254,6 +254,8 @@
   "abundance_normalization_ions": "False",
   "predictors_library": NaN,
   "scan_window": "[MISSING]",
-  "semi_specific": false,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
+  "semi_enzymatic": false,
   "submission_comments": "no cross-run normalisation, default params\n\n ### Parameter changes detected:\n- **scan_window**: `Dynamic` \u2192 `[MISSING]`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/273e81ee74a5e47b791f1fa49c320ccd07639fa6/"
 }
